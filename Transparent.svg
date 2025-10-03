@@ -1,0 +1,149 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (changed to white) -->
+  <rect width="400" height="200" fill="#FFFFFF" fill-opacity="0"/>
+  
+  <!-- Define square size for pixel font (changed colors for visibility on white) -->
+  <defs>
+    <rect id="pixel" width="5" height="5" fill="#152E3C"/>
+    <rect id="pixel-accent" width="5" height="5" fill="#B90F2A"/>
+  </defs>
+  
+  <!-- Terminal prompt >_ made of squares -->
+  <g transform="translate(55, 80)">
+    <!-- > symbol (full height) -->
+    <use href="#pixel-accent" x="0" y="0"/>
+    <use href="#pixel-accent" x="6" y="6"/>
+    <use href="#pixel-accent" x="12" y="12"/>
+    <use href="#pixel-accent" x="18" y="18"/>
+    <use href="#pixel-accent" x="12" y="24"/>
+    <use href="#pixel-accent" x="6" y="30"/>
+    <use href="#pixel-accent" x="0" y="36"/>
+    
+    <!-- _ underscore (closer to >) -->
+    <use href="#pixel-accent" x="24" y="36"/>
+    <use href="#pixel-accent" x="30" y="36"/>
+    <use href="#pixel-accent" x="36" y="36"/>
+  </g>
+  
+  <!-- NOHUP in pixel/terminal font made of squares, centered -->
+  <g transform="translate(110, 80)">
+    <!-- Letter N -->
+    <g>
+      <use href="#pixel" x="0" y="0"/>
+      <use href="#pixel" x="0" y="6"/>
+      <use href="#pixel" x="0" y="12"/>
+      <use href="#pixel" x="0" y="18"/>
+      <use href="#pixel" x="0" y="24"/>
+      <use href="#pixel" x="0" y="30"/>
+      <use href="#pixel" x="0" y="36"/>
+      
+      <use href="#pixel" x="6" y="6"/>
+      <use href="#pixel" x="12" y="12"/>
+      <use href="#pixel" x="18" y="18"/>
+      <use href="#pixel" x="24" y="24"/>
+      
+      <use href="#pixel" x="30" y="0"/>
+      <use href="#pixel" x="30" y="6"/>
+      <use href="#pixel" x="30" y="12"/>
+      <use href="#pixel" x="30" y="18"/>
+      <use href="#pixel" x="30" y="24"/>
+      <use href="#pixel" x="30" y="30"/>
+      <use href="#pixel" x="30" y="36"/>
+    </g>
+    
+    <!-- Letter O -->
+    <g transform="translate(45, 0)">
+      <use href="#pixel" x="6" y="0"/>
+      <use href="#pixel" x="12" y="0"/>
+      <use href="#pixel" x="18" y="0"/>
+      <use href="#pixel" x="24" y="0"/>
+      
+      <use href="#pixel" x="0" y="6"/>
+      <use href="#pixel" x="0" y="12"/>
+      <use href="#pixel" x="0" y="18"/>
+      <use href="#pixel" x="0" y="24"/>
+      <use href="#pixel" x="0" y="30"/>
+      
+      <use href="#pixel" x="30" y="6"/>
+      <use href="#pixel" x="30" y="12"/>
+      <use href="#pixel" x="30" y="18"/>
+      <use href="#pixel" x="30" y="24"/>
+      <use href="#pixel" x="30" y="30"/>
+      
+      <use href="#pixel" x="6" y="36"/>
+      <use href="#pixel" x="12" y="36"/>
+      <use href="#pixel" x="18" y="36"/>
+      <use href="#pixel" x="24" y="36"/>
+    </g>
+    
+    <!-- Letter H -->
+    <g transform="translate(90, 0)">
+      <use href="#pixel" x="0" y="0"/>
+      <use href="#pixel" x="0" y="6"/>
+      <use href="#pixel" x="0" y="12"/>
+      <use href="#pixel" x="0" y="18"/>
+      <use href="#pixel" x="0" y="24"/>
+      <use href="#pixel" x="0" y="30"/>
+      <use href="#pixel" x="0" y="36"/>
+      
+      <use href="#pixel" x="6" y="18"/>
+      <use href="#pixel" x="12" y="18"/>
+      <use href="#pixel" x="18" y="18"/>
+      <use href="#pixel" x="24" y="18"/>
+      
+      <use href="#pixel" x="30" y="0"/>
+      <use href="#pixel" x="30" y="6"/>
+      <use href="#pixel" x="30" y="12"/>
+      <use href="#pixel" x="30" y="18"/>
+      <use href="#pixel" x="30" y="24"/>
+      <use href="#pixel" x="30" y="30"/>
+      <use href="#pixel" x="30" y="36"/>
+    </g>
+    
+    <!-- Letter U -->
+    <g transform="translate(135, 0)">
+      <use href="#pixel" x="0" y="0"/>
+      <use href="#pixel" x="0" y="6"/>
+      <use href="#pixel" x="0" y="12"/>
+      <use href="#pixel" x="0" y="18"/>
+      <use href="#pixel" x="0" y="24"/>
+      <use href="#pixel" x="0" y="30"/>
+      
+      <use href="#pixel" x="30" y="0"/>
+      <use href="#pixel" x="30" y="6"/>
+      <use href="#pixel" x="30" y="12"/>
+      <use href="#pixel" x="30" y="18"/>
+      <use href="#pixel" x="30" y="24"/>
+      <use href="#pixel" x="30" y="30"/>
+      
+      <use href="#pixel" x="6" y="36"/>
+      <use href="#pixel" x="12" y="36"/>
+      <use href="#pixel" x="18" y="36"/>
+      <use href="#pixel" x="24" y="36"/>
+    </g>
+    
+    <!-- Letter P -->
+    <g transform="translate(180, 0)">
+      <use href="#pixel" x="0" y="0"/>
+      <use href="#pixel" x="0" y="6"/>
+      <use href="#pixel" x="0" y="12"/>
+      <use href="#pixel" x="0" y="18"/>
+      <use href="#pixel" x="0" y="24"/>
+      <use href="#pixel" x="0" y="30"/>
+      <use href="#pixel" x="0" y="36"/>
+      
+      <use href="#pixel" x="6" y="0"/>
+      <use href="#pixel" x="12" y="0"/>
+      <use href="#pixel" x="18" y="0"/>
+      <use href="#pixel" x="24" y="0"/>
+      
+      <use href="#pixel" x="30" y="6"/>
+      <use href="#pixel" x="30" y="12"/>
+      
+      <use href="#pixel" x="6" y="18"/>
+      <use href="#pixel" x="12" y="18"/>
+      <use href="#pixel" x="18" y="18"/>
+      <use href="#pixel" x="24" y="18"/>
+    </g>
+  </g>
+</svg>
